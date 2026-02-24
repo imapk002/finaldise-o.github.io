@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contáctanos - DentalTech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/contacto.css">
+
+    <!-- FAVICON  -->
+    <link rel="icon" href="img\logo.svg" type="image/svg+xml">
+
+    
+  </head>
+
+  <body>
+<!-- NAVBAR  -->
+<nav class="navbar navbar-expand-lg mi-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex flex-column align-items-center" href="index.html">
+            <img src="img\logo.svg" alt="DentalTech" class="logo-navbar">
+            <span class="titulo-navbar">DentalTech</span>
+            <small class="subtitulo-navbar">Centro Odontológico</small>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item dropdown"> 
+                    <a class="nav-link dropdown-toggle" href="#" id="tratamientosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        TRATAMIENTOS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="tratamientosDropdown">
+                        <li><h6 class="dropdown-header">Especialidades</h6></li>
+                        <li><a class="dropdown-item" href="ConsultaOdontologica.html">Consulta y Prevención</a></li>
+                        <li><a class="dropdown-item" href="tratamientoArreglos.html">Arreglos Dentales</a></li>
+                        <li><a class="dropdown-item" href="tratamientoImplantes.html">Implantes Dentales</a></li>
+                        <li><a class="dropdown-item" href="tratamientoCoronas.html">Coronas Dentales</a></li>
+                        <li><a class="dropdown-item" href="tratamientoortodoncia.html">Ortodoncia</a></li>
+                        <li><a class="dropdown-item" href="extracciondental.html">Extracción Dental</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="contacto.html">Más información</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="nosotros.html">NOSOTROS</a></li>
+                <li class="nav-item"><a class="nav-link" href="instalaciones.html">INSTALACIONES</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+		        <li class="nav-item"><a class="nav-link" href="Costos.html">COSTOS</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- SECCION  CONTACTO -->
+    <section class="contacto" >
+  <div class="container-fluid">
+    <div class="row title-section">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+    </div>
+    
+    <div class="bg-sec-contacto">
+      <div class="overlay"></div>
+    
+    <div id="contact-ubi" class="row mx-auto p-4 m-4 w-100 justify-content-center">
+      <div class="info-direc col-4 col-md-4 mb-4 mb-md-0 text-center pt-4 py-4 ">
+        <p class="text-white"><u>Consultorio DentalTech</u><br> A.V. 25 de mayo 1234</p>
+        <p class="text-white"><u>info@dentaltech.com</u><br>San Juan, Argentina</p>
+        <p class="text-white"><u>Turnos por whatsapp</u><br>+1 1 123456789 </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.5151714550484!2d-68.52653544186403!3d-31.53747343032146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968140281b059031%3A0xbdafc7e302f74c9a!2sPlaza%2025%20de%20Mayo!5e0!3m2!1ses!2sar!4v1762723378870!5m2!1ses!2sar" 
+        width="250" height="250" style="border:0;border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <form id="contact-form" class="card col-8 p-4" style="border: 0px;" novalidate>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre <span class="text-danger opacity-75">*</span></label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingresar nombre..." required>
+        </div>
+
+        <div class="mb-3">
+          <label for="apellido" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Ingresar apellido...">
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email <span class="text-danger opacity-75">*</span></label>
+          <input type="email" class="form-control" id="email" placeholder="Ingresar email..." required>
+        </div>
+
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje <span class="text-danger opacity-75">*</span></label>
+          <textarea class="form-control" id="mensaje" rows="4" placeholder="Deja por aquí tu comentario..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Enviar</button>
+        <small class="d-block mt-2 opacity-75">
+          <span class="text-danger">*</span> Campos obligatorios
+        </small>
+      </form>
+      
+      <div class="info-direc-2 text-center p-4">
+        <p class="text-white"><u>Consultorio DentalTech</u><br> A.V. 25 de mayo 1234</p>
+        <p class="text-white"><u>info@dentaltech.com</u><br>San Juan, Argentina</p>
+        <p class="text-white"><u>Turnos por whatsapp</u><br>+1 1 123456789 </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.5151714550484!2d-68.52653544186403!3d-31.53747343032146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968140281b059031%3A0xbdafc7e302f74c9a!2sPlaza%2025%20de%20Mayo!5e0!3m2!1ses!2sar!4v1762723378870!5m2!1ses!2sar" 
+        width="250" height="250" style="border:0;border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="blur-overlay"></div>
+  
+  <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content p-3 border-0 shadow-lg">
+      <div class="modal-header justify-content-center border-0">
+        <h5 class="modal-title fw-semibold" id="confirmModalLabel">Confirmar envío de formulario</h5>
+      </div>
+      <div class="modal-body text-center">
+        <p class="mb-4">¿Está seguro de enviar el mensaje?</p>
+        <div class="d-flex justify-content-center gap-3">
+          <button type="button" class="btn btn-enviar px-4" id="confirmarEnvio" data-bs-dismiss="modal">Enviar</button>
+          <button type="button" class="btn btn-cancelar px-4" data-bs-dismiss="modal">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+    <!-- FOOTER -->
+<footer class="footer-dentaltech text-white py-4 buttom-0">
+  <div class="container-fluid container-footer">
+    <div class="row align-items-center text-center text-md-start">
+      
+      <!-- Columna izquierda: logo y nombre -->
+      <div class="col-md-3 mb-3 mb-md-0">
+        <img src="img/logo sin fondo 3.svg" alt="DentalTech" class="mb-2">
+      </div>
+
+      <!-- Columna central: copyright -->
+      <div class="col-md-5 mb-3 mb-md-0 justify-content-center d-flex">
+        <h3 class="mb-0 opacity-75" >© 2025 - Dental Tech</h3>
+      </div>
+
+      <!-- Columna derecha: íconos -->
+      <div class="col-md-4 d-flex justify-content-evenly">
+        <a href="#" class="text-white mx-2"><i class="bi bi-telephone fs-4" fontsize="60px"></i></a>
+        <a href="#" class="text-white mx-2"><i class="bi bi-instagram fs-4"></i></a>
+        <a href="#" class="text-white mx-2"><i class="bi bi-house fs-4"></i></a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+    <script src="JS/contacto.js"></script>
+  </body>
+</html>

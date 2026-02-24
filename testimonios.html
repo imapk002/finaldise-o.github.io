@@ -1,0 +1,237 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Testimonios</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Alata&family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css\estilos.css">
+      <!-- FAVICON  -->
+        <link rel="icon" href="img\logo.svg" type="image/svg+xml">
+</head>
+<body>
+
+<!-- NAVBAR  -->
+<nav class="navbar navbar-expand-lg mi-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex flex-column align-items-center" href="index.html">
+            <img src="img\logo.svg" alt="DentalTech" class="logo-navbar">
+            <span class="titulo-navbar">DentalTech</span>
+            <small class="subtitulo-navbar">Centro Odontológico</small>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item dropdown"> 
+                    <a class="nav-link dropdown-toggle" href="#" id="tratamientosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        TRATAMIENTOS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="tratamientosDropdown">
+                        <li><h6 class="dropdown-header">Especialidades</h6></li>
+                        <li><a class="dropdown-item" href="ConsultaOdontologica.html">Consulta y Prevención</a></li>
+                        <li><a class="dropdown-item" href="tratamientoArreglos.html">Arreglos Dentales</a></li>
+                        <li><a class="dropdown-item" href="tratamientoImplantes.html">Implantes Dentales</a></li>
+                        <li><a class="dropdown-item" href="tratamientoCoronas.html">Coronas Dentales</a></li>
+                        <li><a class="dropdown-item" href="tratamientoortodoncia.html">Ortodoncia</a></li>
+                        <li><a class="dropdown-item" href="extracciondental.html">Extracción Dental</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="contacto.html">Más información</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="nosotros.html">NOSOTROS</a></li>
+                <li class="nav-item"><a class="nav-link" href="instalaciones.html">INSTALACIONES</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+		        <li class="nav-item"><a class="nav-link" href="Costos.html">COSTOS</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+               <h1 class="text-center font-dancing-script titulo-nosotros color">Historias de Sonrisas</h1>
+                <p class="text-muted">Nuestros pacientes comparten su experiencia en DentalTech</p>
+            </div>
+
+            <div id="carouselTestimonios" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="2"></button>
+                </div>
+
+                <div class="carousel-inner pb-5">
+                    
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="card testimonio-card p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="Imagen Ana" class="img-paciente me-3">
+                                        <div><h6 class="mb-0">Ana García</h6><small class="text-warning">★★★★★</small></div>
+                                    </div>
+                                    <span class="badge badge-tratamiento mb-3 w-70">Corona Dental</span>
+                                    <p class="small text-muted">"Tenía un diente fracturado y me daba mucha inseguridad. La corona se ve exactamente como mis dientes naturales."</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card testimonio-card p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="https://i.pravatar.cc/150?u=ana" alt="Imagen Carlos" class="img-paciente me-3">
+                                        <div><h6 class="mb-0">Carlos Ruiz</h6><small class="text-warning">★★★★★</small></div>
+                                    </div>
+                                    <span class="badge badge-tratamiento mb-3 w-70">Implantes</span>
+                                    <p class="small text-muted">"Le tenía terror al dentista. En DentalTech me explicaron todo con calma y no sentí dolor. Recuperé mi calidad de vida."</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card testimonio-card p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="https://i.pravatar.cc/150?u=carlos" alt="Imagen Marta" class="img-paciente me-3">
+                                        <div><h6 class="mb-0">Marta López</h6><small class="text-warning">★★★★★</small></div>
+                                    </div>
+                                    <span class="badge badge-tratamiento mb-3 w-70">Arreglo Dental</span>
+                                    <p class="small text-muted">"A pocos días de mi boda, arreglaron una imperfección estética. Salvaron mis fotos, ¡ni yo noto dónde estaba el daño!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="card testimonio-card p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="https://i.pravatar.cc/150?u=115" alt="Imagen Javier" class="img-paciente me-3">
+                                        <div><h6 class="mb-0">Javier Soler</h6><small class="text-warning">★★★★★</small></div>
+                                    </div>
+                                    <span class="badge badge-tratamiento mb-3 w-70">Ortodoncia</span>
+                                    <p class="small text-muted">"Llevo 6 meses con mi tratamiento de brackets y los cambios son increíbles. La atención del equipo es de primera."</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card testimonio-card p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="https://i.pravatar.cc/150?u=6" alt="Imagen Elena" class="img-paciente me-3">
+                                        <div><h6 class="mb-0">Elena Torres</h6><small class="text-warning">★★★★★</small></div>
+                                    </div>
+                                    <span class="badge badge-tratamiento mb-3 w-70">Implante Dental</span>
+                                    <p class="small text-muted">"Perdí una pieza hace años y pospuse el tratamiento por miedo a la cirugía. En DentalTech el proceso fue mucho más sencillo de lo que imaginé; no sentí dolor y hoy puedo volver a comer con total normalidad."</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card testimonio-card p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="https://i.pravatar.cc/150?u=5" alt="Imagen Ricardo" class="img-paciente me-3">
+                                        <div><h6 class="mb-0">Ricardo Paz</h6><small class="text-warning">★★★★★</small></div>
+                                    </div>
+                                    <span class="badge badge-tratamiento mb-3 w-70">Extracción Dental</span>
+                                    <p class="small text-muted">"Llegué con una inflamación terrible por la muela del juicio. Me atendieron súper rápido y la extracción fue impecable. Me explicaron todos los cuidados postoperatorios y la recuperación fue mucho más veloz de lo que esperaba. ¡Adiós al dolor!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="card testimonio-card p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="https://i.pravatar.cc/150?u=7" alt="Imagen Sofía" class="img-paciente me-3">
+                                        <div><h6 class="mb-0">Sofía Castro</h6><small class="text-warning">★★★★★</small></div>
+                                    </div>
+                                    <span class="badge badge-tratamiento mb-3 w-70">Corona Dental</span>
+                                    <p class="small text-muted">"Me mostraron cómo quedaría mi sonrisa antes de empezar. El escáner 3D es impresionante, mucha tecnología."</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card testimonio-card p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="https://i.pravatar.cc/150?u=92" alt="Imagen Hugo" class="img-paciente me-3">
+                                        <div><h6 class="mb-0">Hugo Méndez</h6><small class="text-warning">★★★★★</small></div>
+                                    </div>
+                                    <span class="badge badge-tratamiento mb-3 w-70">Arreglo Dental</span>
+                                    <p class="small text-muted">"Fui por un dolor agudo un sábado y me atendieron de inmediato. Resolvieron el problema rápido y con mucha ética."</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card testimonio-card p-4">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="https://i.pravatar.cc/150?u=9" alt="Imagen Groucho" class="img-paciente me-3">
+                                        <div><h6 class="mb-0">Groucho Marx</h6><small class="text-warning">★★★★★</small></div>
+                                    </div>
+                                    <span class="badge badge-tratamiento mb-3 w-70">Ortodoncia</span>
+                                    <p class="small text-muted">"Mis hijos van felices. Tienen mucha paciencia con los niños y el lugar es muy amigable para ellos."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+            <div class="text-center mt-5">
+                <p class="fw-bold">¿Quieres ser nuestra próxima historia de éxito?</p>
+                <a href="contacto.html" class="btn btn-primary btn-lg px-5 shadow rounded-pill">Agenda tu Cita</a>
+            </div>
+        </div>
+    </section>
+
+
+  <!-- FOOTER  -->
+    <footer class="footer-dentaltech text-white py-4 buttom-0">
+  <div class="container-fluid container-footer">
+    <div class="row align-items-center text-center text-md-start">
+      
+      <!-- Columna izquierda: logo y nombre -->
+      <div class="col-md-3 mb-3 mb-md-0" heigt="60px" width="60px">
+        <img src="img/logo sin fondo 3.svg" alt="DentalTech" class="mb-2">
+      </div>
+
+      <!-- Columna central: copyright -->
+      <div class="col-md-5 mb-3 mb-md-0 justify-content-center d-flex">
+        <h3 class="mb-0 opacity-75" >© 2025 - Dental Tech</h3>
+      </div>
+
+      <!-- Columna derecha: íconos -->
+      <div class="col-md-4 d-flex justify-content-evenly">
+        <a href="#" class="text-white mx-2"><i class="bi bi-telephone fs-4" fontsize="60px"></i></a>
+        <a href="#" class="text-white mx-2"><i class="bi bi-instagram fs-4"></i></a>
+        <a href="#" class="text-white mx-2"><i class="bi bi-house fs-4"></i></a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+    <script src="JS/contacto.js"></script> 
+  </body>
+</html>
+</body>
+</html>
